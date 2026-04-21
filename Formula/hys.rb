@@ -6,11 +6,16 @@ class Hys < Formula
   license "MIT"
 
   depends_on "pkg-config" => :build
-  depends_on "zig" => :build
+  depends_on "zig@0.15" => :build
   depends_on "curl"
 
   def install
-    system "zig", "build", "install", "--prefix", prefix, "-Doptimize=ReleaseSafe"
+    # Ensure Zig 0.15 is used instead of system Zig (0.16)
+    ENV.prepend_path "PATH", Formula["zig@0.15"].opt_bin
+
+    system "zig", "build", "install",
+           "--prefix", prefix,
+           "-Doptimize=ReleaseSafe"
   end
 
   test do
