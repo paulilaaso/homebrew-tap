@@ -1,8 +1,8 @@
 class Hys < Formula
   desc "RSS Reader for Digital Minimalists"
   homepage "https://github.com/superstarryeyes/hys"
-  url "https://github.com/superstarryeyes/hys/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "38340bf3bd5392b0944b23114719f7d5bf1420a0dcdab05e41c190aaa8a62bf4"
+  url "https://github.com/superstarryeyes/hys/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "60663a538f211f228c09d174c3c9de0e0570841c03adf5a61ae61dafa7dfeda2"
   license "MIT"
 
   depends_on "pkg-config" => :build
