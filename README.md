@@ -1,15 +1,15 @@
-# Superstarryeyes Tap
+# Paulilaaso Tap
 
 ## How do I install these formulae?
 
-`brew install superstarryeyes/tap/<formula>`
+`brew install paulilaaso/tap/<formula>`
 
-Or `brew tap superstarryeyes/tap` and then `brew install <formula>`.
+Or `brew tap paulilaaso/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "superstarryeyes/tap"
+tap "paulilaaso/tap"
 brew "<formula>"
 ```
 

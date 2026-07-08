@@ -1,7 +1,7 @@
 class Hys < Formula
   desc "RSS Reader for Digital Minimalists"
-  homepage "https://github.com/superstarryeyes/hys"
-  url "https://github.com/superstarryeyes/hys/archive/refs/tags/v0.2.0.tar.gz"
+  homepage "https://github.com/paulilaaso/hys"
+  url "https://github.com/paulilaaso/hys/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "60663a538f211f228c09d174c3c9de0e0570841c03adf5a61ae61dafa7dfeda2"
   license "MIT"
 
